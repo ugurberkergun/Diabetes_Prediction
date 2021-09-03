@@ -10,9 +10,6 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, \
     roc_auc_score, confusion_matrix, classification_report, plot_roc_curve
 from sklearn.model_selection import train_test_split
-from scipy.stats import ttest_1samp, shapiro, levene, ttest_ind, mannwhitneyu, pearsonr, spearmanr, kendalltau, \
-    f_oneway, kruskal
-from statsmodels.stats.proportion import proportions_ztest
 from helpers.eda import *
 from helpers.data_prep import *
 pd.set_option('display.max_columns', None)
